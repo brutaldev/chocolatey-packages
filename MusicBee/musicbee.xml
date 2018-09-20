@@ -41,7 +41,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="(http(s?)://www.mediafire.com/.*/MusicBeeSetup_\d_\d_.*\.zip)".*Mirror 1</Regex>
+            <Regex>(http(s?)://www.mediafire.com/.*/MusicBeeSetup_\d_\d_.*\.zip).*Get\sMusicBee\sInstaller</Regex>
             <Url>https://www.getmusicbee.com/downloads/</Url>
             <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
