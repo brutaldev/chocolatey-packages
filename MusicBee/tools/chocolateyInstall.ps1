@@ -9,7 +9,6 @@ $validExitCodes = @(0)
 
 $filename = [System.IO.Path]::GetFileNameWithoutExtension($url.Substring($url.LastIndexOf("/") + 1))
 $zipFile = "$filename.zip"
-$exeFile = "$filename.exe"
 
 $chocTempDir = Join-Path $env:TEMP "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"
@@ -26,10 +25,10 @@ Get-ChocolateyUnzip -FileFullPath "$file" `
                     -Destination "$tempDir" `
                     -PackageName "$packageName"
 
-$file = Join-Path $tempDir $exeFile
+$exeFile = (Get-ChildItem $tempDir -Filter *.exe | Select-Object -First 1).FullName
 
 Install-ChocolateyInstallPackage -PackageName "$packageName" `
                                  -FileType "$installerType" `
                                  -SilentArgs "$silentArgs" `
-                                 -File "$file" `
+                                 -File "$exeFile" `
                                  -ValidExitCodes $validExitCodes
