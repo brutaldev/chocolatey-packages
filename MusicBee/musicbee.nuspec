@@ -11,7 +11,7 @@
 
 MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.
 
-####Screenshot
+#### Screenshot
 ![MusicBee Screenshot](https://raw.githubusercontent.com/anggaaja/chocolatey/master/musicbee/assets/musicbeescreenshot.png)
     </description>
     <projectUrl>http://getmusicbee.com/</projectUrl>
@@ -21,6 +21,7 @@ MusicBee makes it easy to organize, find and play music files on your computer, 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/anggaaja/chocolatey/master/musicbee/assets/musicbeelogo.png</iconUrl>
     <dependencies>
+      <dependency id="dotnet4.6.1" version="4.6" />
       <dependency id="autohotkey.portable" version="1.1" />
     </dependencies>
     <bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.1</bugTrackerUrl>
