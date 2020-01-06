@@ -11,7 +11,7 @@
     <projectUrl>https://www.screenpresso.com/</projectUrl>
     <tags>screenshots capture recording screen grab admin</tags>
     <copyright>LEARNPULSE SAS</copyright>
-    <licenseUrl>http://www.screenpresso.com/license-agreements/</licenseUrl>
+    <licenseUrl>https://screenpresso.com/software-license-agreement/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://pbs.twimg.com/profile_images/438412324311797760/Z7CV5GhS.png</iconUrl>
     <packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/Screenpresso</packageSourceUrl>
