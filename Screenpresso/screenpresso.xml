@@ -4,8 +4,6 @@
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>12701760</LastFileSize>
-    <LastFileDate>2017-07-22T03:01:00.6156859</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,6 +89,22 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>releaseDate</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>\d{4}-\d{2}-\d{2}</Regex>
+            <Url>http://www.screenpresso.com/binaries/version4.xml</Url>
+            <StartText>releasedate="2019-01-15"</StartText>
+            <EndText>2019-01-15</EndText>
+            <Name>releaseDate</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -98,12 +112,10 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation></PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2017-07-22T03:01:00.6156859</LastUpdated>
-    <TargetPath></TargetPath>
+    <TargetPath>.\Screenpresso\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>screenpresso</Name>
   </ApplicationJob>
