@@ -4,8 +4,6 @@
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>13773921</LastFileSize>
-    <LastFileDate>2017-10-30T22:51:44+02:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -41,7 +39,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(http(s?)://www.mediafire.com/.*/MusicBeeSetup_\d_\d_.*\.zip).*Get\sMusicBee\sInstaller</Regex>
+            <Regex>(http(s?)://www.mediafire.com/.*/MusicBeeSetup_\d_\d.*\.zip).*Get\sMusicBee\sInstaller</Regex>
             <Url>https://www.getmusicbee.com/downloads/</Url>
             <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
@@ -55,12 +53,10 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation></PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2017-11-03T18:51:03.9098899+02:00</LastUpdated>
-    <TargetPath></TargetPath>
+    <TargetPath>.\MusicBee\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>musicbee</Name>
   </ApplicationJob>
