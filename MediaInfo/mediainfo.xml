@@ -4,8 +4,6 @@
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>6395752</LastFileSize>
-    <LastFileDate>2017-09-14T23:11:16.1883879</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -40,12 +38,10 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation></PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2017-09-14T22:40:51.5021386</LastUpdated>
-    <TargetPath></TargetPath>
+    <TargetPath>.\MediaInfo\</TargetPath>
     <FixedDownloadUrl>https://mediaarea.net/download/binary/mediainfo-gui/{version}/MediaInfo_GUI_{version}_Windows.exe</FixedDownloadUrl>
     <Name>mediainfo</Name>
   </ApplicationJob>
